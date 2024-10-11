@@ -9,4 +9,6 @@ public class Plane {
     @Id
     @GeneratedValue
     long id;
+
+
 }
