@@ -10,8 +10,4 @@ public class Pilot {
 
     @Column
     String name;
-
-    @ManyToOne
-    @JoinColumn(name = "plane_id")
-    Plane plane;
 }
