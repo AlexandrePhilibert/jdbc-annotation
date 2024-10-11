@@ -10,7 +10,7 @@ public class Plane {
     @Id
     @GeneratedValue
     long id;
-    
+
     @Column
     Date constructionDate;
 
